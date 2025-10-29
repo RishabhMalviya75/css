@@ -1,0 +1,22 @@
+ *{
+    color: grey;
+
+ }
+ h1{
+    color: #1b74e4;
+
+ }
+ button{
+    background-color: black;
+    color:white;
+
+ }
+ .userbtn{
+    background-color: aqua;
+    color: black;
+ }
+ /* desecendent selcector */
+ p a {
+    color:purple;
+    background-color: aquamarine; 
+ }

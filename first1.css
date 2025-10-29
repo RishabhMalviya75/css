@@ -1,0 +1,25 @@
+h1{
+    text-align : center;
+    text-decoration-line: underline;
+    letter-spacing: 1px;
+}
+
+h3{
+    text-align : center;
+     text-decoration-line: green line-through;
+}
+p{
+    text-align : center;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 30x;
+    font-family: arial;  
+}  
+    /* mutiple family can be written in cse browser don't  support */
+h2{
+    font-weight: 800;
+    text-decoration: double blue Overline;
+}
+   /* text decoration */
+ 
+   

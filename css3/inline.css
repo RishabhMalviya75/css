@@ -1,0 +1,13 @@
+/* h2{
+    display: inline;
+    background-color: yellow;
+}
+span{
+    display: block;
+    background-color: lightblue;    
+}   */
+   span{
+    background-color: lightgreen;
+    padding: 50px;
+    border: 2px solid black;
+   }

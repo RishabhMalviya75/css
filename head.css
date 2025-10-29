@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(220, 220, 64);
+}
+/* form{
+    background-color: blueviolet;
+} */
+input box inharite properti show nahi karte
+button{
+    background-color: inherit;
+    color: inherit;
+}
+input{
+    background-color: inherit;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}

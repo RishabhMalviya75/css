@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* This will be the color of the FIRST div */
+    background-color: #4dff00; /* Bright Green */
+}           
+
+#opacity {
+    /* This will override the 'div' rule for the SECOND div */
+    background-color: #ffa511 ; /* Orange */
+    opacity: 1; /* Keeping it fully opaque for now */
+}
