@@ -1,0 +1,36 @@
+#container{
+height: 500px;
+width: 80%;
+margin: 10px auto;
+background-color: azure;
+border: 2px solid black;
+display: flex;
+flex-direction: column;  /* main axis  */
+justify-content: flex-start;   /* arrange items horizontally and align content to it for verticals  */
+ /* flex-wrap: wrap; wrap items to next line  */
+ align-items: flex-start;  /* align items vertically  */    
+align-content: flex-start;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    background-color: coral;
+    /* border: 2px solid black; */
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#org{
+    align-self: flex-start ;
+    /* flex-basis: 50px;  to set width of particular item  */
+    /* flex-grow:  1;  */
+    /* flex-shrink: 1;   */
+    /*all three flex together */
+   flex: 1 1 50px;       /* grow/shrink/basis */
+}         

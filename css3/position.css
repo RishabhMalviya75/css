@@ -1,0 +1,22 @@
+div {
+height: 100px;
+width: 100px;
+background-color: green;
+text-align: center;
+border: 3px solid;
+margin: 20px;
+display: inline-block;
+}
+#static{
+    position: static;
+    top: 20px;
+    left: 20px;
+    background-color: yellow;
+}
+#relative{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    background-color: red;
+}
+/* Position fixed  */
