@@ -8,10 +8,15 @@
 <body>
     <h1>hello world</h1>
 <p id ="my-name"></p>
-    <script >const name = "John";
-     document.querySelector("#my-name").innerText = name;
-     let cartValue = Math.round( ((15599 - (10/100 * 15599)) - 272 + (2499 - (41/100*2499))-29+25 + 20) * 118 / 100);
+    <!-- <script >const name = "John";
+     document.querySelector("#my-name").innerText = name; -->
+    
+    <script>
+         const GST = 18;
+    let cartValue = Math.round( ((15599 - (10/100 * 15599)) - 272 + (2499 - (41/100*2499))-29+25 + 20) *(100 + GST)/100);
      console.log(cartValue);
-     document.querySelector("#my-name").innerText = cartValue;</script>
+     console.log(eval('2*2-5*10/2+6'));
+     
+    </script>
 </body>
 </html>
